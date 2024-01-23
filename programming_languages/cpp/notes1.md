@@ -19,7 +19,7 @@ Make template folder with all the setting and use it for all your projects.
 ## First CPP Program
 Following can be a first CPP program that someone can write.
 
-```
+```cpp
 #include <iostream>
 
 int main()
