@@ -25,6 +25,7 @@ Following can be a first CPP program that someone can write.
 int main()
 #include <iostream> // now you can use the functionality of iostream package
 
+// Entry point main function
 int main()
 {
     // printing
@@ -36,4 +37,4 @@ int main()
 }
 ```
 
-`// some info` are the comments in C++ code. The comments in the above code explain little bit about the code.
+`// some info` is a single line comment in C++ code. The comments in the above code explain little bit about the code. For multiline comment use `/* few lines of comments */`.
