@@ -37,4 +37,33 @@ int main()
 }
 ```
 
-`// some info` is a single line comment in C++ code. The comments in the above code explain little bit about the code. For multiline comment use `/* few lines of comments */`.
+`// some info` is a single line comment in C++ code. The comments in the above code explain little bit about the code. For multiline comment use `/* few lines of comments */`. Nesting of block comments is not allowed.
+
+### Comments
+Use comments to document your code. Don't overdo it though.
+```cpp
+// One Line Comments
+// This brings in the iostream library
+#include <iostream>
+
+/*
+    This is a block comment that englobes multiple lines of
+    comments.
+*/
+int main()
+{
+    // This is going to print Hello World to the terminal
+    std::cout << "Hello World!" << std::endl;
+    return 0;
+}
+```
+
+## Errors and Warnings
+
+Three kinds
+ 1. Compiler Time Errors : Error during compilation
+ 2. Runtime Errors : Your program is not doing what it is intended to do. Logical error.
+ 3. Warnings : Compilation succeed. The compiler warns about some stuff like when you are dividing something with zero e.g., `20/0`.
+
+Compiler generates a binary executable file from a `.cpp` file.
+
