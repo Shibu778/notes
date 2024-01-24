@@ -16,6 +16,11 @@ Similarly, set up the Clang and MSVC compilers as mentioned in visualstudio docu
 Make template folder with all the setting and use it for all your projects.
 
 
+### VS Code Shortcuts
+1. `Ctrl + Shift + B` to run task and build the program.
+2. `Ctrl + Shift + '` to open a new terminal.
+
+
 ## First CPP Program
 Following can be a first CPP program that someone can write.
 
@@ -66,4 +71,38 @@ Three kinds
  3. Warnings : Compilation succeed. The compiler warns about some stuff like when you are dividing something with zero e.g., `20/0`.
 
 Compiler generates a binary executable file from a `.cpp` file.
+
+**Compile-time error**
+```cpp
+#include <iostream>
+
+int main()
+{
+    // Compile time error
+    std::cout << "Hello World!" << std::endl // no semi colon
+    return 0;
+}
+```
+
+** Runtime Error **
+Division by zero results in warning during compilation and later it will not execute that part of the code during execution.
+```cpp
+#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+
+    int value = 7 / 0;
+    std::cout << "Value : " << value << std::endl;
+    return 0;
+}
+
+```
+
+
+## Statemetns and Functions
+A statement is a basic unit of computation in a C++ program. Every C++ program is a collection of statements organized in a certain way to achieve some goal. Statemetns end with a semicolon in C++ (;).
+
+
 
