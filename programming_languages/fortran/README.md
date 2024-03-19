@@ -1,3 +1,6 @@
+# Learning Fortran
+One of the good resources to learn fortran is https://fortran-lang.org/en/.
+
 This folder contains fortran 90 programs to learn the basics of fortran programming language. 
 
 For reference see the book Computational Quantum Mechanics by Joshua Izaac and Jingbo Wang.
@@ -13,3 +16,5 @@ In Linux
 ```shell
 gfortran program_name.f90 -o executable_name.out
 ```
+
+
