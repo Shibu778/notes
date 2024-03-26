@@ -8,6 +8,7 @@ Other Good Sources to learn Fortran:
 4. For discussion : https://fortran-lang.discourse.group/
 5. https://qc2-teaching.readthedocs.io/en/latest/prog-fortran.html
 6. https://www.tutorialspoint.com/fortran/index.htm
+7. https://github.com/pranabdas/fortran
 
 This folder contains fortran 90 programs to learn the basics of fortran programming language. 
 
